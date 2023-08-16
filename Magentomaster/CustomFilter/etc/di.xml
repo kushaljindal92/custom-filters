@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Catalog\Model\Layer\FilterList">
+		<plugin name="Magentomaster_CustomFilter_Plugin_Magento_Catalog_Model_Layer_FilterList" type="Magentomaster\CustomFilter\Plugin\Magento\Catalog\Model\Layer\FilterList" sortOrder="10" disabled="false"/>
+	</type>
+	<type name="Magento\Elasticsearch7\Model\Client\Elasticsearch">
+		<plugin name="Magentomaster_CustomFilter_Plugin_Magento_Elasticsearch7_Model_Client_Elasticsearch" type="Magentomaster\CustomFilter\Plugin\Magento\Elasticsearch7\Model\Client\Elasticsearch" sortOrder="10" disabled="false"/>
+	</type>
+</config>

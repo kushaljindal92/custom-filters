@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/extension_attributes.xsd">
+    <entityType id="customer" resource="Magento\Customer\Model\ResourceModel\Customer">
+        <attribute id="firstname" xsi:type="attribute">
+            <is_visible>1</is_visible>
+            <is_required>0</is_required>
+        </attribute>
+        <attribute id="lastname" xsi:type="attribute">
+            <is_visible>1</is_visible>
+            <is_required>0</is_required>
+        </attribute>
+    </entityType>
+</config>
